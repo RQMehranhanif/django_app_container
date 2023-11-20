@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-gb+2!ju1+$^emvq_l1^zjuft68%quiq!ow1kt%kj*f#*#i&t1t
 DEBUG = True
 
 # ALLOWED_HOSTS = ['uploadfile_project_env.on.dockerize.io']
-ALLOWED_HOSTS = ['anotherdomain.com', '174.129.46.90', '174.129.46.90:8008']
+ALLOWED_HOSTS = ['anotherdomain.com', '174.129.46.90', '174.129.46.90:8009']
 
 # ALLOWED_HOSTS = ['174.129.46.90', '[::1]']
 # ALLOWED_HOSTS = []
