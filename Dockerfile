@@ -12,8 +12,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . code
 WORKDIR /code
 
-EXPOSE 8008
+EXPOSE 8009
 
 # runs the production server
-ENTRYPOINT ["python", "./main_program/mysite/manage.py"]
-CMD ["runserver", "0.0.0.0:8008"]
+ENTRYPOINT ["python", "./main_program/manage.py"]
+CMD ["runserver", "0.0.0.0:8009"]
