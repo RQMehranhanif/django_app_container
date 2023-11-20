@@ -1,0 +1,6 @@
+record_files/*cache*
+record_files/*settings.json
+sample_files
+*log*
+*/__*
+practice/
