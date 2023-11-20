@@ -8,15 +8,15 @@ from django.shortcuts import redirect, render
 
 # Create your views here.
 def index(request):
-    return render(request, 'myuploadapp/index.html')
+    return render(request, 'index.html')
 def hello_world(request):
-    return render(request, 'myuploadapp/hello.html')
+    return render(request, 'hello.html')
 def service(request):
-    return render(request, 'myuploadapp/service.html')
+    return render(request, 'service.html')
 def about(request):
-    return render(request, 'myuploadapp/contact.html')
+    return render(request, 'contact.html')
 def contact(request):
-    return render(request, 'myuploadapp/hello.html')
+    return render(request, 'hello.html')
 # def excel_db(request):
 #     if request.method == 'POST':
 #         excel_file = request.FILES.get('excel_db_name')

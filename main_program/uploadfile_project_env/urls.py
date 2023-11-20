@@ -1,5 +1,5 @@
 """
-URL configuration for mysite project.
+URL configuration for uploadfile_project_env project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.2/topics/http/urls/
@@ -19,5 +19,6 @@ from django.urls import path, include     # <--  ADD THIS LINE
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('api.urls')),   # <--  ADD THIS LINE
+    path('', include('myapis.urls')),   # <--  ADD THIS LINE
 ]
+
